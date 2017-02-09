@@ -1,0 +1,37 @@
+{
+	"name": "finickydev/pphelper",
+	"description": "A helper library written in PHP,  for PayPal API.",
+	"keywords": [
+		"paypal",
+		"payments",
+		"recurring",
+		"helper"
+	],
+	"license": "MIT",
+	"type": "library",
+	"require": {
+	  "php": ">=5.3.9",
+	  "paypal/rest-api-sdk-php": "1.5.0",
+	  "rmccue/requests": "> 1.0",
+	  "nesbot/carbon": "~1.18",
+	  "symfony/translation": "~2.8"
+	},
+	"require-dev": {
+	},
+	"authors": [
+		{
+			"name": "FinickyDev",
+			"email": "finickydev@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"FinickyDev\\ppHelper\\": "src/"
+		}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable"
+}
