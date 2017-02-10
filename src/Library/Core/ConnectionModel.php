@@ -11,6 +11,8 @@ namespace FinickyDev\ppHelper\Library\Core;
 use PayPal\Rest\ApiContext;
 use PayPal\Auth\OAuthTokenCredential;
 use PayPal\Exception\PayPalConnectionException;
+use PayPal\Core\PayPalConfigManager;
+use PayPal\Common\PayPalModel;
 
 
 class ConnectionModel
